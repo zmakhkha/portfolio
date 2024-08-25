@@ -5,9 +5,11 @@
 }
 
 .personal-info-box {
-	max-width: 400px;
-	margin: auto;
-	position: relative;
+	width: 20%;
+	height: 80%;
+
+	/* margin: auto; */
+	/* position: relative; */
 	text-align: center;
 	background-color: white;
 	transition: background-color 0.2s ease-in-out;

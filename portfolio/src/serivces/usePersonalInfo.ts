@@ -15,8 +15,8 @@ export interface PersonalInfo {
 	  lastName: 'Makhkhas',
 	  phone: '+212 61314-5086',
 	  email: 'makhkhas.zakaria@gmail.com',
-	  location: 'Khouribga, Beni-Mellal Khenifra, MA',
-	  birthday: 'octobe',
+	  location: 'Khouribga, Morocco',
+	  birthday: 'octobe 20, 1999',
 	};
   }
   

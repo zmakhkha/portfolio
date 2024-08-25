@@ -1,7 +1,14 @@
 .app-container {
-	height: 100vh;
+	display: flex;
+	flex: 1;
 	justify-content: center;
 	align-items: center;
+	flex-wrap: wrap;
+  }
+  
+  .vertical {
 	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
   }
   
