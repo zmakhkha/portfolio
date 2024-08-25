@@ -7,10 +7,11 @@ export interface PersonalInfo {
 	location: string;
 	birthday: string;
   }
+import profilePicture from '../../public/profile.jpg'
   
   export function usePersonalInfo(): PersonalInfo {
 	return {
-	  profilePicture: 'https://via.placeholder.com/150',
+	  profilePicture: profilePicture,
 	  firstName: 'Zakaria',
 	  lastName: 'Makhkhas',
 	  phone: '+212 61314-5086',
