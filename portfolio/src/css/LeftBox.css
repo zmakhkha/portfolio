@@ -3,3 +3,39 @@
   height: 80%;
   background-color: tomato;
 }
+
+.personal-info-box {
+	max-width: 400px;
+	margin: auto;
+	position: relative;
+	text-align: center;
+	background-color: white;
+	transition: background-color 0.2s ease-in-out;
+  }
+  
+  .personal-info-box.dark-mode {
+	background-color: #2d3748; /* Dark mode background */
+  }
+  
+  .profile-picture {
+	width: 120px;
+	height: 120px;
+	border: 5px solid white;
+	border-radius: 50%;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	position: relative;
+	top: -50%; /* Position profile picture 50% out of the box */
+  }
+  
+  .name {
+	font-family: 'Arial, sans-serif';
+  }
+  
+  .info-card {
+	text-align: left;
+  }
+  
+  .info-item {
+	font-size: 16px;
+  }
+  
